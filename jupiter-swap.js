@@ -63,9 +63,11 @@ function init() {
 async function getQuote(inputMint, outputMint, amountLamports) {
   const jupiterApis = [
     'https://quote-api.jup.ag/v6',
-    'https://jupiter-api.example.com/v1/quote',
-    'https://swap-api.dexlab.space/v1/quote',
+    'https://api.jup.co/v1/quote',
+    'https://jupiter-swap.levvy.finance/quote',
   ];
+  
+  console.log('🔍 Attempting Jupiter quote...');
   
   for (const api of jupiterApis) {
     try {
