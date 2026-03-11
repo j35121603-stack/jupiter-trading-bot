@@ -1,0 +1,22 @@
+{
+  "name": "jupiter-trading-bot",
+  "version": "1.0.0",
+  "description": "Automated Jupiter trading bot",
+  "main": "orchestrator.js",
+  "scripts": {
+    "start": "node orchestrator.js",
+    "deploy": "npx render deploy"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.90.0",
+    "axios": "^1.6.0",
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "render": {
+    "buildCommand": "npm install",
+    "startCommand": "node orchestrator.js"
+  }
+}
