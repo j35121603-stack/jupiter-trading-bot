@@ -1,0 +1,45 @@
+{
+  "capital": 1000,
+  "trades": [
+    {
+      "symbol": "PEPE",
+      "pnl": 0.2739726027397234,
+      "entryPrice": 0.00000365,
+      "exitPrice": 0.00000367,
+      "entryTime": 1772475982650,
+      "exitTime": 1772477285531
+    },
+    {
+      "symbol": "DOGE",
+      "pnl": -0.00965896426183158,
+      "entryPrice": 0.094213,
+      "exitPrice": 0.094187,
+      "entryTime": 1772497300078,
+      "exitTime": 1772497361393
+    },
+    {
+      "symbol": "DOGE",
+      "pnl": -0.0008951043059791389,
+      "entryPrice": 0.094961,
+      "exitPrice": 0.094959,
+      "entryTime": 1772646938557,
+      "exitTime": 1772646968181
+    },
+    {
+      "symbol": "BONK",
+      "pnl": 0.4051863857374353,
+      "entryPrice": 0.00000617,
+      "exitPrice": 0.00000622,
+      "entryTime": 1772475400381,
+      "exitTime": 1772681681207
+    }
+  ],
+  "positions": [],
+  "dailyTrades": 0,
+  "dailyStartCapital": 1000,
+  "dailyStartTime": 0,
+  "wonTrades": 2,
+  "lostTrades": 2,
+  "startedAt": 1772252021675,
+  "totalPnl": 0.668604919909348
+}

@@ -1,0 +1,194 @@
+{
+  "capital": 40.61262934603915,
+  "positions": [
+    {
+      "marketId": "550708",
+      "market": "Will Ukraine qualify for the 2026 FIFA World Cup?",
+      "direction": "no",
+      "size": 13.440641812148769,
+      "price": 0.72,
+      "shares": 18.667558072428847,
+      "confidence": 0.532,
+      "timestamp": 1773186216359,
+      "entryTime": 1773186216359,
+      "status": "open"
+    },
+    {
+      "marketId": "553824",
+      "market": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+      "direction": "no",
+      "size": 13.463732601338641,
+      "price": 0.895,
+      "shares": 15.043276649540381,
+      "confidence": 0.637,
+      "timestamp": 1773205468379,
+      "entryTime": 1773205468379,
+      "status": "open"
+    },
+    {
+      "marketId": "550703",
+      "market": "Will Sweden qualify for the 2026 FIFA World Cup?",
+      "direction": "no",
+      "size": 13.537543115346383,
+      "price": 0.715,
+      "shares": 18.933626734750185,
+      "confidence": 0.529,
+      "timestamp": 1773222837470,
+      "entryTime": 1773222837470,
+      "status": "open"
+    }
+  ],
+  "trades": [
+    {
+      "marketId": "550708",
+      "market": "Will Ukraine qualify for the 2026 FIFA World Cup?",
+      "direction": "no",
+      "size": 20.3225,
+      "price": 0.73,
+      "shares": 27.839041095890416,
+      "confidence": 0.538,
+      "timestamp": 1772840315827
+    },
+    {
+      "marketId": "550703",
+      "market": "Will Sweden qualify for the 2026 FIFA World Cup?",
+      "direction": "no",
+      "size": 15.241875,
+      "price": 0.71,
+      "shares": 21.46742957746479,
+      "confidence": 0.526,
+      "timestamp": 1772857678402
+    },
+    {
+      "marketId": "553824",
+      "market": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+      "direction": "no",
+      "size": 15.241875,
+      "price": 0.895,
+      "shares": 17.030027932960895,
+      "confidence": 0.637,
+      "timestamp": 1772858565005
+    },
+    {
+      "marketId": "550708",
+      "market": "Will Ukraine qualify for the 2026 FIFA World Cup?",
+      "direction": "no",
+      "size": 12.597166095890412,
+      "price": 0.715,
+      "shares": 17.618414120126452,
+      "confidence": 0.529,
+      "timestamp": 1772926726525
+    },
+    {
+      "marketId": "550703",
+      "market": "Will Sweden qualify for the 2026 FIFA World Cup?",
+      "direction": "no",
+      "size": 13.231509034945978,
+      "price": 0.705,
+      "shares": 18.768097921909188,
+      "confidence": 0.523,
+      "timestamp": 1772944547034
+    },
+    {
+      "marketId": "553824",
+      "market": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+      "direction": "no",
+      "size": 13.734100526209483,
+      "price": 0.895,
+      "shares": 15.345363716435177,
+      "confidence": 0.637,
+      "timestamp": 1772945657133
+    },
+    {
+      "marketId": "550708",
+      "market": "Will Ukraine qualify for the 2026 FIFA World Cup?",
+      "direction": "no",
+      "size": 13.449866918629716,
+      "price": 0.715,
+      "shares": 18.811002683398204,
+      "confidence": 0.529,
+      "timestamp": 1773013356894
+    },
+    {
+      "marketId": "553824",
+      "market": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+      "direction": "no",
+      "size": 13.520925320524658,
+      "price": 0.895,
+      "shares": 15.10717912907783,
+      "confidence": 0.637,
+      "timestamp": 1773032632735
+    },
+    {
+      "marketId": "550703",
+      "market": "Will Sweden qualify for the 2026 FIFA World Cup?",
+      "direction": "no",
+      "size": 13.472031371532374,
+      "price": 0.71,
+      "shares": 18.974692072580808,
+      "confidence": 0.526,
+      "timestamp": 1773048483082
+    },
+    {
+      "marketId": "550708",
+      "market": "Will Ukraine qualify for the 2026 FIFA World Cup?",
+      "direction": "no",
+      "size": 13.537031518369453,
+      "price": 0.73,
+      "shares": 18.54387879228692,
+      "confidence": 0.538,
+      "timestamp": 1773099795365
+    },
+    {
+      "marketId": "553824",
+      "market": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+      "direction": "no",
+      "size": 13.533004968908255,
+      "price": 0.895,
+      "shares": 15.120675942914252,
+      "confidence": 0.637,
+      "timestamp": 1773119052723
+    },
+    {
+      "marketId": "550703",
+      "market": "Will Sweden qualify for the 2026 FIFA World Cup?",
+      "direction": "no",
+      "size": 13.470324839382831,
+      "price": 0.7,
+      "shares": 19.24332119911833,
+      "confidence": 0.52,
+      "timestamp": 1773135704330
+    },
+    {
+      "marketId": "550708",
+      "market": "Will Ukraine qualify for the 2026 FIFA World Cup?",
+      "direction": "no",
+      "size": 13.440641812148769,
+      "price": 0.72,
+      "shares": 18.667558072428847,
+      "confidence": 0.532,
+      "timestamp": 1773186216359
+    },
+    {
+      "marketId": "553824",
+      "market": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+      "direction": "no",
+      "size": 13.463732601338641,
+      "price": 0.895,
+      "shares": 15.043276649540381,
+      "confidence": 0.637,
+      "timestamp": 1773205468379
+    },
+    {
+      "marketId": "550703",
+      "market": "Will Sweden qualify for the 2026 FIFA World Cup?",
+      "direction": "no",
+      "size": 13.537543115346383,
+      "price": 0.715,
+      "shares": 18.933626734750185,
+      "confidence": 0.529,
+      "timestamp": 1773222837470
+    }
+  ],
+  "startedAt": 1772840315256
+}

@@ -1,0 +1,40 @@
+{
+  "capital": 1088.0898876404494,
+  "trades": [],
+  "positions": [
+    {
+      "token": "SOL",
+      "direction": "down",
+      "entryPrice": 89.47,
+      "amount": 0.8941544651838605,
+      "value": 80,
+      "confidence": 0.6,
+      "entryTime": 1772737440324,
+      "status": "open"
+    },
+    {
+      "token": "ETH",
+      "direction": "down",
+      "entryPrice": 2083.85,
+      "amount": 0.038390479161168035,
+      "value": 80,
+      "confidence": 0.6,
+      "entryTime": 1772779440626,
+      "status": "open"
+    },
+    {
+      "token": "PEPE",
+      "direction": "up",
+      "entryPrice": 0.00000334,
+      "amount": 26062033.23689699,
+      "value": 87.04719101123595,
+      "confidence": 0.6,
+      "entryTime": 1773255923959,
+      "status": "open"
+    }
+  ],
+  "wonTrades": 1,
+  "lostTrades": 0,
+  "dailyTrades": 5,
+  "startedAt": 1772646787293
+}

@@ -1,0 +1,109 @@
+{
+  "capital": 994.91,
+  "trades": [
+    {
+      "symbol": "POPCAT",
+      "amount": 100,
+      "entryPrice": 0.053424,
+      "entryTime": 1772053351596,
+      "entryHour": 13,
+      "entryMomentum": 14.16,
+      "exitPrice": 0.050703,
+      "pnl": -5.09,
+      "pnlPct": -5.09,
+      "exitTime": 1772072102742,
+      "exitHour": 18,
+      "reason": "stop_loss"
+    }
+  ],
+  "positions": [
+    {
+      "symbol": "MEW",
+      "mint": "MEW1gQW4gECy1KJPb6M6qV1yKVPzDFFF3r4xJ7qXP8x",
+      "amount": 89.54190000000001,
+      "entryPrice": 0.00062719,
+      "entryTime": 1772077010850,
+      "entryHour": 19,
+      "entryMomentum": 7.555165744740101,
+      "targetPrice": 0.000689909,
+      "stopPrice": 0.0005958305,
+      "exited": false,
+      "config": {
+        "tp": 0.1,
+        "sl": 0.05,
+        "sizeMult": 0.9
+      }
+    }
+  ],
+  "dailyTrades": 1,
+  "wonTrades": 0,
+  "lostTrades": 1,
+  "startedAt": 1772053170999,
+  "learnings": {
+    "totalTrades": 1,
+    "consecutiveWins": 0,
+    "consecutiveLosses": 1,
+    "lastTradeResult": "loss",
+    "coinPerformance": {
+      "POPCAT": {
+        "wins": 0,
+        "losses": 1,
+        "totalPnl": -5.09,
+        "avgHoldingTime": 0,
+        "winRate": 0
+      }
+    },
+    "hourPerformance": {
+      "18": {
+        "wins": 0,
+        "losses": 1,
+        "winRate": 0
+      }
+    },
+    "momentumPerformance": {
+      "high_positive": {
+        "wins": 0,
+        "losses": 1
+      },
+      "medium_positive": {
+        "wins": 0,
+        "losses": 0
+      },
+      "low_positive": {
+        "wins": 0,
+        "losses": 0
+      },
+      "negative": {
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    "marketCondition": {
+      "bull": {
+        "wins": 0,
+        "losses": 0
+      },
+      "bear": {
+        "wins": 0,
+        "losses": 0
+      },
+      "sideways": {
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    "optimalTP": 0.1,
+    "optimalSL": 0.05,
+    "positionSizeMultiplier": 0.9,
+    "confidence": {
+      "coinSelection": 0.3,
+      "timing": 0.3,
+      "momentumThreshold": 0.3
+    },
+    "patterns": [],
+    "avoidCoins": [
+      "POPCAT"
+    ],
+    "preferredCoins": []
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "capital": 1000,
+  "positions": [],
+  "trades": [],
+  "wonTrades": 0,
+  "lostTrades": 0,
+  "totalPnl": 0
+}
