@@ -14,8 +14,36 @@
 
 const fs = require('fs');
 const path = require('path');
+const http = require('http');
 
 const ORCHESTRATOR_DIR = __dirname;
+
+// ===== SIMPLE HTTP SERVER FOR RENDER =====
+const HTTP_PORT = process.env.PORT || 3000;
+
+function startHttpServer() {
+  const server = http.createServer((req, res) => {
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    const state = JSON.parse(fs.readFileSync(path.join(ORCHESTRATOR_DIR, 'orchestrator-state.json'), 'utf8'));
+    res.end(JSON.stringify({
+      status: 'RUNNING',
+      mode: state.mode,
+      portfolio: state.portfolio,
+      strategies: Object.keys(state.strategies).map(k => ({
+        name: k,
+        trades: state.strategies[k].trades?.length || 0,
+        pnl: state.strategies[k].totalPnl || 0
+      }))
+    }));
+  });
+  
+  server.listen(HTTP_PORT, '0.0.0.0', () => {
+    console.log('🌐 HTTP Server running on port ' + HTTP_PORT);
+  });
+}
+
+// Start HTTP server on Render
+startHttpServer();
 
 // ===== LIVE TRADING CONFIG =====
 let jupiter = null;
